@@ -1,0 +1,43 @@
+{
+    "en": {
+      "headerSection": {
+        "isim": "Almila Su",
+        "baslik": "Creative thinker Minimalism lover",
+        "icerik": "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
+        "profilResmi": "/images/foto.jpg",
+        "sosyalMedya": [
+          {
+            "logo": "",
+            "alt_text": "Hire me",
+            "link": ""
+          },
+          {
+            "logo": "/images/github.png",
+            "alt_text": "Github",
+            "link": "https://github.com"
+          },
+          {
+            "logo": "/images/LinkedIn.png",
+            "alt_text": "Linkedin",
+            "link": "https://linkedin.com"
+          }
+        ]
+      },
+      "skillsSection": [
+          { 
+            "baslik": "Java Script",
+            "icerik": "JavaScript is a dynamic, weakly typed, object-oriented programming language. It runs in the browser, supports event handling, async operations."
+          },
+          {
+            "baslik": "React.Js",
+            "icerik": "React.js is a component-based, performance-oriented JavaScript library that uses virtual DOM. Hooks, JSX and state management are supported."
+          },
+          {
+            "baslik": "Node.Js",
+            "icerik": "React.js is a component-based, performance-oriented JavaScript library that uses virtual DOM. Hooks, JSX and state management are supported."
+          }
+      ]
+
+    }
+
+  }
