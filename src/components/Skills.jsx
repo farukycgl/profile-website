@@ -2,24 +2,23 @@ import React from "react";
 import { useData } from "../contexts/DataContext";
 
 export default function Skills() {
-
     const data = useData();
-    if (!data?.en?.headerSection) {
+
+    if (!data?.skillsSection) {
         return <p>Loading...</p>;
     }
- 
 
     return (
-        <div className="">
+        <div>
             <div>
                 <h1>Skills</h1>
             </div>
-            {data.en.skillsSection.map((skill, index) => (
-                <div className="">
+            {data.skillsSection.map((skill, index) => (
+                <div key={index}>
                     <h3>{skill.baslik}</h3>
                     <p>{skill.icerik}</p>
                 </div>
             ))}
         </div>
-    )
+    );
 }

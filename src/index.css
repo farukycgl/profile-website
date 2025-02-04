@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,11 +27,31 @@ a:hover {
 }
 
 body {
+  transition: background 0.3s ease, color 0.3s ease;
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+body.dark {
+  background-color: #282828;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+body.dark button {
+  background-color: #ffffff;
+  color: #121212;
 }
 
 h1 {

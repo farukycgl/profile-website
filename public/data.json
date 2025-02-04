@@ -9,7 +9,7 @@
           {
             "logo": "",
             "alt_text": "Hire me",
-            "link": ""
+            "link": "https://www.iskur.gov.tr/"
           },
           {
             "logo": "/images/github.png",
@@ -36,8 +36,93 @@
             "baslik": "Node.Js",
             "icerik": "React.js is a component-based, performance-oriented JavaScript library that uses virtual DOM. Hooks, JSX and state management are supported."
           }
+      ],
+      "profileSection": {
+          "dogumTarihi": "24.03.1996",
+          "ikametSehri": "Ankara",
+          "egitimDurumu": "Hacattepe Üniv. Biyoloji Lisan, 2016",
+          "tercihEttigiRol": "Frontend, UI",
+          "hakkimda": "I am a frontend developer. I design user-friendly, responsive and dynamic interfaces with HTML, CSS, JavaScript and modern libraries (React, Vue). I care about performance, accessibility and clean code writing. I am constantly improving myself by following innovations."                
+      },
+      "projectsSection": [
+        {
+          "foto": "/images/Rectangle41.png",
+          "baslik": "Workintech",
+          "icerik": "Workintech is an intensive training programme focused on software development. It aims to prepare participants for the sector by providing them with experience in frontend, backend and full-stack development with practical projects."
+        },
+        {
+          "foto": "/images/Rectangle42.png",
+          "baslik": "Random Jokes",
+          "icerik": "Random Jokes project is a fun application that brings random jokes using API. Users see a new joke every time they click. A dynamic structure was created using React, Axios and useEffect."
+        },
+        {
+          "foto": "/images/Rectangle43.png",
+          "baslik": "Journey",
+          "icerik": "The Journey project is a platform where users can share their travel experiences and get inspired. It offers a dynamic interface, allowing users to write travel stories, upload photos and make recommendations. It is developed using React, Redux and Firebase.."
+        }
       ]
-
-    }
-
-  }
+    },
+    "tr": {
+        "headerSection": {
+          "isim": "Almila Su",
+          "baslik": "Yaratıcı düşünür Minimalizm sever",
+          "icerik": "Merhaba, ben Almila. Ben bir full-stack geliştiriciyim. Eğer güçlü ve ölçeklenebilir frontend ürünleri oluşturabilecek bir geliştirici arıyorsanız, gelin tanışalım.",
+          "profilResmi": "/images/foto.jpg",
+          "sosyalMedya": [
+            {
+              "logo": "",
+              "alt_text": "Beni işe al",
+              "link": "https://www.iskur.gov.tr/"
+            },
+            {
+              "logo": "/images/github.png",
+              "alt_text": "Github",
+              "link": "https://github.com"
+            },
+            {
+              "logo": "/images/LinkedIn.png",
+              "alt_text": "Linkedin",
+              "link": "https://linkedin.com"
+            }
+          ]
+        },
+        "skillsSection": [
+          {
+            "baslik": "Java Script",
+            "icerik": "JavaScript, dinamik, zayıf tipli, nesne yönelimli bir programlama dilidir. Tarayıcıda çalışır, olay işleme ve asenkron işlemleri destekler."
+          },
+          {
+            "baslik": "React.Js",
+            "icerik": "React.js, sanal DOM kullanan, performans odaklı, bileşen tabanlı bir JavaScript kütüphanesidir. Hooks, JSX ve durum yönetimi destekler."
+          },
+          {
+            "baslik": "Node.Js",
+            "icerik": "Node.js, sunucu tarafı JavaScript çalıştırmak için kullanılan açık kaynaklı bir çalışma zamanıdır. Yüksek performans ve ölçeklenebilirlik sağlar."
+          }
+        ],
+        "profileSection": {
+          "dogumTarihi": "24.03.1996",
+          "ikametSehri": "Ankara",
+          "egitimDurumu": "Hacettepe Üniv. Biyoloji Lisan, 2016",
+          "tercihEttigiRol": "Frontend, UI",
+          "hakkimda": "Ben bir frontend geliştiricisiyim. HTML, CSS, JavaScript ve modern kütüphaneler (React, Vue) kullanarak kullanıcı dostu, duyarlı ve dinamik arayüzler tasarlıyorum. Performans, erişilebilirlik ve temiz kod yazımına özen gösteriyorum. Yenilikleri takip ederek kendimi sürekli olarak geliştiriyorum."
+        },
+        "projectsSection": [
+          {
+            "foto": "/images/Rectangle41.png",
+            "baslik": "Workintech",
+            "icerik": "Workintech, yazılım geliştirme odaklı yoğun bir eğitim programıdır. Katılımcılara frontend, backend ve full-stack geliştirme konularında deneyim kazandırmayı hedefler."
+          },
+          {
+            "foto": "/images/Rectangle42.png",
+            "baslik": "Random Jokes",
+            "icerik": "Random Jokes projesi, API kullanarak rastgele şakalar getiren eğlenceli bir uygulamadır. Kullanıcılar her tıkladıklarında yeni bir şaka görürler. React, Axios ve useEffect kullanılarak dinamik bir yapı oluşturulmuştur."
+          },
+          {
+            "foto": "/images/Rectangle43.png",
+            "baslik": "Journey",
+            "icerik": "Journey projesi, kullanıcıların seyahat deneyimlerini paylaşabileceği ve ilham alabileceği bir platformdur. Kullanıcılar seyahat hikayelerini yazabilir, fotoğraf yükleyebilir ve önerilerde bulunabilir. React, Redux ve Firebase kullanılarak geliştirilmiştir."
+          }
+        ]
+      }
+}
