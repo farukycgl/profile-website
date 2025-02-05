@@ -23,7 +23,10 @@
           }
         ]
       },
-      "skillsSection": [
+      "skillsSection": {
+        "anaBaslik": "Skills",
+        "skills": 
+        [
           { 
             "baslik": "Java Script",
             "icerik": "JavaScript is a dynamic, weakly typed, object-oriented programming language. It runs in the browser, supports event handling, async operations."
@@ -36,15 +39,25 @@
             "baslik": "Node.Js",
             "icerik": "React.js is a component-based, performance-oriented JavaScript library that uses virtual DOM. Hooks, JSX and state management are supported."
           }
-      ],
+      ]
+    },
       "profileSection": {
+          "profil": "Profile",
+          "aboutMe": "About Me",
           "dogumTarihi": "24.03.1996",
           "ikametSehri": "Ankara",
           "egitimDurumu": "Hacattepe Üniv. Biyoloji Lisan, 2016",
           "tercihEttigiRol": "Frontend, UI",
-          "hakkimda": "I am a frontend developer. I design user-friendly, responsive and dynamic interfaces with HTML, CSS, JavaScript and modern libraries (React, Vue). I care about performance, accessibility and clean code writing. I am constantly improving myself by following innovations."                
+          "hakkimda": "I am a frontend developer. I design user-friendly, responsive and dynamic interfaces with HTML, CSS, JavaScript and modern libraries (React, Vue). I care about performance, accessibility and clean code writing. I am constantly improving myself by following innovations.",
+          "dogumTarihiSor": "Date of Birth",
+          "ikametSehriSor": "City of Residence",
+          "egitimDurumuSor": "Education Status",
+          "tercihEttigiRolSor": "Preferred Role"                
       },
-      "projectsSection": [
+      "projectsSection": {
+        "anaBaslik": "Projects",
+        "projects": 
+        [
         {
           "foto": "/images/Rectangle41.png",
           "baslik": "Workintech",
@@ -53,7 +66,7 @@
         {
           "foto": "/images/Rectangle42.png",
           "baslik": "Random Jokes",
-          "icerik": "Random Jokes project is a fun application that brings random jokes using API. Users see a new joke every time they click. A dynamic structure was created using React, Axios and useEffect."
+          "icerik": "Random Jokes is a React-based app that fetches random jokes via API. With Axios and useEffect, each click displays a new joke, ensuring a fun, dynamic, and engaging user experience."
         },
         {
           "foto": "/images/Rectangle43.png",
@@ -61,6 +74,14 @@
           "icerik": "The Journey project is a platform where users can share their travel experiences and get inspired. It offers a dynamic interface, allowing users to write travel stories, upload photos and make recommendations. It is developed using React, Redux and Firebase.."
         }
       ]
+    },
+      "footerSection": {
+        "baslik": "Let's work together on your next product.",
+        "email": "almilasucode@gmail.com",
+        "blog": "Personal Blog",
+        "github": "Github",
+        "linkedin": "Linkedin"
+      }
     },
     "tr": {
         "headerSection": {
@@ -86,7 +107,10 @@
             }
           ]
         },
-        "skillsSection": [
+        "skillsSection": {
+          "anaBaslik": "Yetenekler",
+          "skills": 
+        [
           {
             "baslik": "Java Script",
             "icerik": "JavaScript, dinamik, zayıf tipli, nesne yönelimli bir programlama dilidir. Tarayıcıda çalışır, olay işleme ve asenkron işlemleri destekler."
@@ -99,15 +123,25 @@
             "baslik": "Node.Js",
             "icerik": "Node.js, sunucu tarafı JavaScript çalıştırmak için kullanılan açık kaynaklı bir çalışma zamanıdır. Yüksek performans ve ölçeklenebilirlik sağlar."
           }
-        ],
+        ]
+      },
         "profileSection": {
+          "profil": "Profil",
+          "aboutMe": "Hakkımda",
           "dogumTarihi": "24.03.1996",
           "ikametSehri": "Ankara",
           "egitimDurumu": "Hacettepe Üniv. Biyoloji Lisan, 2016",
           "tercihEttigiRol": "Frontend, UI",
-          "hakkimda": "Ben bir frontend geliştiricisiyim. HTML, CSS, JavaScript ve modern kütüphaneler (React, Vue) kullanarak kullanıcı dostu, duyarlı ve dinamik arayüzler tasarlıyorum. Performans, erişilebilirlik ve temiz kod yazımına özen gösteriyorum. Yenilikleri takip ederek kendimi sürekli olarak geliştiriyorum."
+          "hakkimda": "Ben bir frontend geliştiricisiyim. HTML, CSS, JavaScript ve modern kütüphaneler (React, Vue) kullanarak kullanıcı dostu, duyarlı ve dinamik arayüzler tasarlıyorum. Performans, erişilebilirlik ve temiz kod yazımına özen gösteriyorum. Yenilikleri takip ederek kendimi sürekli olarak geliştiriyorum.",
+          "dogumTarihiSor": "Doğum Tarihi",
+          "ikametSehriSor": "İkamet Şehri",
+          "egitimDurumuSor": "Eğitim Durumu",
+          "tercihEttigiRolSor": "Tercih Ettiği Rol" 
         },
-        "projectsSection": [
+        "projectsSection": {
+          "anaBaslik": "Projeler",
+          "projects":
+        [
           {
             "foto": "/images/Rectangle41.png",
             "baslik": "Workintech",
@@ -116,13 +150,21 @@
           {
             "foto": "/images/Rectangle42.png",
             "baslik": "Random Jokes",
-            "icerik": "Random Jokes projesi, API kullanarak rastgele şakalar getiren eğlenceli bir uygulamadır. Kullanıcılar her tıkladıklarında yeni bir şaka görürler. React, Axios ve useEffect kullanılarak dinamik bir yapı oluşturulmuştur."
+            "icerik": "Random Jokes, API ile rastgele şakalar getiren React tabanlı bir uygulamadır. Axios ve useEffect kullanılarak her tıkta yeni bir şaka gösterilir, eğlenceli ve dinamik bir deneyim sunar."
           },
           {
             "foto": "/images/Rectangle43.png",
             "baslik": "Journey",
-            "icerik": "Journey projesi, kullanıcıların seyahat deneyimlerini paylaşabileceği ve ilham alabileceği bir platformdur. Kullanıcılar seyahat hikayelerini yazabilir, fotoğraf yükleyebilir ve önerilerde bulunabilir. React, Redux ve Firebase kullanılarak geliştirilmiştir."
+            "icerik": "Journey, kullanıcıların seyahat deneyimlerini paylaşıp ilham alabileceği bir platformdur. Hikayeler yazabilir, fotoğraf yükleyebilir ve önerilerde bulunabilirler. React, Redux ve Firebase ile geliştirilmiştir, dinamik bir deneyim sunar."
           }
         ]
+      },
+        "footerSection": {
+          "baslik": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+          "email": "almilasucode@gmail.com",
+          "blog": "Personal Blog",
+          "github": "Github",
+          "linkedin": "Linkedin"
+        }
       }
 }

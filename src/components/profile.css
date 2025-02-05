@@ -1,0 +1,43 @@
+
+.container-profil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.container-soru-cevap {
+    display: flex;
+    justify-content: center;
+}
+
+.container-soru {
+    width: 50%;
+    font-weight: bold;
+}
+
+.container-hakkimda {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+  

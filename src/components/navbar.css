@@ -1,0 +1,81 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px;
+  }
+  
+  /* Yuvarlak toggle için */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: #FFE86E;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  /* Dark mode açıkken rengi */
+  input:checked + .slider {
+    background-color: #4731D3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(24px);
+  }
+
+  .container-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 23px;
+  }
+
+  .container-switch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .container-darkmode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .links {
+    display: flex;
+    gap: 50px;
+  }
+
+  .links a {
+    color: #6B7280;
+    font-size: 18px;
+  }
+
+
+

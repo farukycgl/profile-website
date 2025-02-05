@@ -1,0 +1,20 @@
+.container-skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.container-skill {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+    flex-wrap: wrap; 
+  }
+
+  .box-skills {
+    display: flex;
+    flex-direction: column; 
+    width: 25%; 
+    padding: 20px;
+  }
+  

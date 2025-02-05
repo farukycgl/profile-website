@@ -1,5 +1,6 @@
 import React from "react";
 import { useData } from "../contexts/DataContext";
+import "./skills.css";
 
 export default function Skills() {
     const data = useData();
@@ -8,17 +9,21 @@ export default function Skills() {
         return <p>Loading...</p>;
     }
 
+    const {anaBaslik} = data.skillsSection;
+
     return (
-        <div>
+        <div className="container-skills">
             <div>
-                <h1>Skills</h1>
+                <h1>{anaBaslik}</h1>
             </div>
-            {data.skillsSection.map((skill, index) => (
-                <div key={index}>
-                    <h3>{skill.baslik}</h3>
-                    <p>{skill.icerik}</p>
-                </div>
-            ))}
+            <div className="container-skill">
+                {data.skillsSection.skills.map((skill, index) => (
+                    <div key={index} className="box-skills">
+                        <h3>{skill.baslik}</h3>
+                        <p>{skill.icerik}</p>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
